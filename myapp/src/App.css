@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    padding-left: 10%;
+    padding-right: 10%;
+    justify-content: center;
+}
+
+.main {
+    background-image: url('https://brandonpuppypalace.com/wp-content/uploads/2023/10/Doggy-Daycare-near-Me-in-Brandon-FL.jpg');
+    height: 80vh;
+    width: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+
+}
+
+.box {
+    height: 80vh;
+    width: 100%;
+    top: 0;
+    position: absolute;
+    background-color: black;
+    opacity: 54%;
+    background-size: auto;
+
+
+}
+
+.navbar {
+    width: 100%;
+    position: relative;
+}
+
+.hero {
+    height: 100%;
+    display: flex;
+    align-items: baseline;
+    justify-content: baseline;
+    flex-direction: column;
+    color: rgb(255, 253, 253);
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    font-weight: bolder;
+    font-style: oblique;
+    padding-left: 5%;
+    padding-top: 30%;
+    font-size: larger;
+}
+
+.gap {
+    gap: 23px;
+}
+
+.button {
+    padding: 2px;
+    font-weight: 20px;
+    background-color: rgb(79 22 88);
+    border-radius: 5px;
+}
+
+.hero input {
+    border-color: white;
+    padding: 2px;
+    font-weight: 20px;
+    border-radius: 5px;
+    background-color: rgba(23, 23, 23, 0.2)
+}
+
+.separation {
+    background-color: rgb(161, 159, 159);
+    height: 0.5px;
+}
+
+.para {
+    font-family: "Poppins", sans-serif;
+    font-size: medium;
+    font-weight: normal;
+}
+.card{
+max-width: 19rem;
+}
+.card-img-top{
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    object-fit: cover;
+    max-height: 180px;
+}
+#batch{
+    max-width: 18em;
+    padding: 2%;
+    margin: 3%;
+}
+.line{
+    background-color: rgb(134, 126, 126);
+    height: 1px;
+}
